@@ -134,7 +134,7 @@ class Bikestations(wx.Frame):
         self.list.InsertColumn(0, 'Lokasjon', width=400)
         self.list.InsertColumn(1, 'Identifikasjon', width=90)
         self.list.InsertColumn(2, 'Sykkellåser', wx.LIST_FORMAT_RIGHT, 90)
-        self.list.InsertColumn(3, 'Sykkler', width=90)
+        self.list.InsertColumn(3, 'Sykler', width=90)
 
         items = bikestations.items()
 
