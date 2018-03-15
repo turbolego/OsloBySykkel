@@ -1,7 +1,7 @@
-# OsloBySykkel
-Oversikt over Oslo Bysykkel sine sykkler som liste med sorteringsmulighet!
-Man kan trykke på tabbene "Lokasjon", "Identifiksjon", "Sykkellåser" og "Sykkler" for å sortere dataene.
-F.eks. kan man sortere etter "Sykkler" for å sortere etter hvilken holdeplass som har flest sykkler akkurat nå.
+# Oslo Bysykkel
+Oversikt over Oslo Bysykkel sine sykler som liste med sorteringsmulighet!
+Man kan trykke på tabbene "Lokasjon", "Identifiksjon", "Sykkellåser" og "Sykler" for å sortere dataene.
+F.eks. kan man sortere etter "Sykler" for å sortere etter hvilken holdeplass som har flest sykler akkurat nå.
 
 # Du må ha:
 1. [Python 2.7](https://www.python.org/)
@@ -22,7 +22,7 @@ F.eks. kan man sortere etter "Sykkler" for å sortere etter hvilken holdeplass s
 
 ![Skjermskudd DeveloperSiden](https://raw.githubusercontent.com/turbolego/OsloBySykkel/master/HvordanKjøre.png)
 
-4. Du vil nå få et vindu som viser en oversikt over Oslo sine Bysykkler!
+4. Du vil nå få et vindu som viser en oversikt over Oslo sine Bysykler!
 
 # Sortering av holdeplassene alfabetisk:
 ![Skjermskudd alfabetisk](https://raw.githubusercontent.com/turbolego/OsloBySykkel/master/alfabetisk.png)
@@ -33,11 +33,11 @@ F.eks. kan man sortere etter "Sykkler" for å sortere etter hvilken holdeplass s
 # Sortering ut ifra antall låser:
 ![Skjermskudd låser](https://raw.githubusercontent.com/turbolego/OsloBySykkel/master/låser.png)
 
-# Sortering ut ifra antall sykkler:
+# Sortering ut ifra antall sykler:
 ![Skjermskudd låser](https://raw.githubusercontent.com/turbolego/OsloBySykkel/master/sykkler.png)
 
 # Ting som må fikses i denne versjonen:
-1. Finne en bedre metode for å filtre ut holdeplassene fra availability json som har "-1" låser og "-1" sykkler, og som ikke finnes i json-data fra stations json.
+1. Finne en bedre metode for å filtre ut holdeplassene fra availability json som har "-1" låser og "-1" sykler, og som ikke finnes i json-data fra stations json.
 2. Forbedre sorteringsmetode for listene.
 3. Legge til tab for gps-lokasjon med link til google maps for lokasjon.
 4. Pakke koden til en kjørbar .exe for bedre brukervennlighet.
